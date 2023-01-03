@@ -5,7 +5,7 @@ pipeline {
         stage('GitPull') {
             steps {
 				// Git pull - as this is a public repository credentials won't be used.
-                git url: 'https://github.com/MVogwell/ps_Test_JenkinsPipeline'
+                git branch: 'main', url: 'https://github.com/MVogwell/ps_Test_JenkinsPipeline'
             }
         }
         stage('PesterTests') {
