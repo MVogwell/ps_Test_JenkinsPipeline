@@ -7,4 +7,4 @@ This project is a demonstration of deploying a PowerShell script using Jenkins -
 * Invoke-ScriptAnalyzerTest.ps1 - this is called by a Jenkins pipeline stage to initialise the PowerShell script analyzer against the code in the project. <br><br>
 * Invoke-UnitTest.ps1 - this is called by a Jenkins pipeline stage to initialise Pester tests against the code
 
-Please see xxxxx for information about using this project in Jenkins
+Please see https://martinvogwell.medium.com/jenkins-powershell-for-sysadmins-part-1-why-a4372584bcb4 for information about using this project in Jenkins
